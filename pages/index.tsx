@@ -17,8 +17,11 @@ export default function Home() {
           </Head>
           <Header />
           <About />
-          <Tokenomics />
-          <Partners />
+          <div className="relative w-full h-full">
+            <div className="opacity-25 absolute h-full w-full bg-no-repeat bg-cover bg-[url('/img/00General/bg.webp')]"></div>
+            <Tokenomics />
+            <Partners />
+          </div>
           <Roadmap />
           <Footer />
         </>

@@ -1,24 +1,24 @@
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
-// import { useEffect } from "react";
-// import AOS from "aos";
-// import "aos/dist/aos.css";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import localFont from 'next/font/local'
 
-// const COOLVETICA_FONT = localFont({ src: '../public/fonts/coolvetica_regular.woff2' })
-// export const COOLVETICA = COOLVETICA_FONT.className
-// const DRUK_CYR_FONT = localFont({ src: '../public/fonts/druk_cyr_super_italic.woff' }) //Найти woff2
-// export const DRUK_CYR = DRUK_CYR_FONT.className
+const CRAZY_FONT = localFont({ src: '../public/fonts/crazy.ttf' })
+export const CRAZY = CRAZY_FONT.className
+const KARLO_CHAM_FONT = localFont({ src: '../public/fonts/karlo_cham.otf' }) //Найти woff2
+export const KARLO_CHAM = KARLO_CHAM_FONT.className
 
 export default function App({ Component, pageProps }: AppProps) {
-  // useEffect(()=>{
-  //     AOS.init({
-  //         once: true
-  //     })
-  // }, [])
+  useEffect(()=>{
+      AOS.init({
+          once: true
+      })
+  }, [])
   
   return (
-        <main>
+        <main className={`${CRAZY}`}>
             <Component {...pageProps} />
         </main>
   )

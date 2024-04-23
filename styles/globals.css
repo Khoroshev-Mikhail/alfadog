@@ -15,7 +15,7 @@ body {
   @apply px-5 max-w-[1200px] mx-auto
 }
 ._h2{
-  @apply uppercase leading-none text-[60px] xs:text-[80px] sm:text-[100px] md:text-[120px] lg:text-[140px] xl:text-[160px]
+  @apply uppercase leading-none text-[55px] xs:text-[80px] sm:text-[100px] md:text-[120px] lg:text-[140px] xl:text-[160px]
 }
 ._inset_shadow{
   box-shadow: inset 0 2px 4px 0 rgb(255 255 255 / 0.4);
@@ -86,4 +86,64 @@ body {
     border-top-right-radius: 80px;
   }
 
+}
+
+/* Roadmap */
+
+@keyframes _moveDown{
+  0%, 100% {
+    top: -25;
+  }
+  
+  50% {
+    top: 25%;
+  }
+}
+
+._animate-moveDown {
+  animation: _moveDown 6s ease-in-out infinite;
+}
+
+@keyframes _moveUp{
+  0%, 100% {
+    bottom: -25;
+  }
+  
+  50% {
+    bottom: 25%;
+  }
+}
+
+._animate-moveUp {
+  animation: _moveUp 6s ease-in-out infinite;
+}
+
+
+/* About */
+
+@keyframes _moveDownAbout{
+  0%, 100% {
+    top: -25%;
+  }
+  
+  50% {
+    top: 0%;
+  }
+}
+
+._animate-moveDownAbout {
+  animation: _moveDownAbout 6s ease-in-out infinite;
+}
+@keyframes _moveUpAbout{
+  0%, 100% {
+    top: 0%;
+  }
+  
+  50% {
+    top: -25%;
+  }
+}
+
+._animate-moveUpAbout {
+  animation: _moveUpAbout 6s ease-in-out infinite;
 }
