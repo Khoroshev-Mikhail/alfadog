@@ -14,7 +14,7 @@ export default function Footer(){
 
                 <div className="md:hidden absolute left-0 top-0 w-full h-full bg-center bg-contain bg-no-repeat bg-[url('/img/06Footer/bg_mobile.svg')]"></div>
 
-                <div className="pl-5 md:pl-[7%] md:pt-[5%] grid grid-cols-1 md:grid-cols-3 md:rounded-tr-[60px] rounded-tr-[80px] md:rounded-bl-[60px] rounded-bl-none bg-gradient-to-tr from-[#FFB178] to-[#FF6B00]">
+                <div className="relative pl-5 md:pl-[7%] md:pt-[5%] grid grid-cols-1 md:grid-cols-3 md:rounded-tr-[60px] rounded-tr-[80px] md:rounded-bl-[60px] rounded-bl-none bg-gradient-to-tr from-[#FFB178] to-[#FF6B00]">
                     <div className="col-span-1 md:col-span-2 w-full py-[10%] flex flex-col">
                         <div data-aos="fade-right" data-aos-duration="1500" className="flex justify-start">
                             <Image src={xxx} alt="X X X" />
@@ -27,8 +27,8 @@ export default function Footer(){
                             <Social reverse />
                         </div>
                     </div>
-                    <div className="col-span-1 md:col-span-1 relative z-40 h-full w-full">
-                        <Image className="md:absolute md:bottom-[26%] md:right-[40%] md:scale-[1.8] w-full h-auto rounded-bl-[60px] md:rounded-none " src={dog} alt="" />
+                    <div className="col-span-1 md:col-span-1  z-40 h-full w-full flex justify-end">
+                        <Image className="block md:absolute md:w-[58%] lg:w-[55%] bottom-0 right-0" src={dog} alt="" />
                     </div>
                 </div>
                 <div className="my-[5%] w-full text-center text-white">
