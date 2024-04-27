@@ -71,7 +71,7 @@ export default function Header(){
                             Alfadog is a rapidly growing community aiming to become one of the most popular in the crypto world. 
                         </div>
                         <div data-aos="fade-right" data-aos-duration="1500" className="flex flex-row mt-[8%] md:mt-[4%] text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] xl:text-[24px] uppercase gap-x-2.5 md:gap-x-4">
-                            <a className="flex flex-row w-auto justify-between rounded-[100px] bg-white" href="">
+                            <a className="flex flex-row w-auto justify-between rounded-[100px] bg-white" href="https://www.pinksale.finance/solana/launchpad/EJ8PpBh9BTYSU2vXsa671bZ1y1q6BjyXcQeVAvRLnZcn">
                                 <div className="pl-5 md:pl-10 flex flex-col justify-center">
                                     Presale
                                 </div>
