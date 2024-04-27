@@ -24,42 +24,42 @@ export default function Roadmap(){
                         </div>
                         <div data-aos="fade-right" data-aos-duration="1500" className="rounded-br-[40px] md:rounded-br-[0px] md:rounded-tr-[40px] md:rounded-bl-[40px] p-5 md:p-7.5 flex justify-between col-span-1 bg-[#3D308A] _tokemomics_shadow">
                             <div className="flex justify-start gap-x-2.5">
-                                <Image src={presale} alt="" />
+                                <Image src={presale} alt="presale" />
                                 <div>presale</div>
                             </div>
                             <div className="text-_orange">40%</div>
                         </div>
                         <div data-aos="fade-right" data-aos-duration="1500" className="rounded-br-[40px] md:rounded-br-[40px] md:rounded-tl-[40px] p-5 md:p-7.5 flex justify-between col-span-1 bg-[#3D308A] _tokemomics_shadow">
                             <div className="flex justify-start gap-x-2.5">
-                                <Image src={liquidity} alt="" />
+                                <Image src={liquidity} alt="liquidity" />
                                 <div>liquidity</div>
                             </div>
                             <div className="text-_orange">20%</div>
                         </div>
                         <div data-aos="fade-right" data-aos-duration="1500" className="rounded-br-[40px] md:rounded-br-[0px] md:rounded-tr-[40px] md:rounded-bl-[40px] p-5 md:p-7.5 flex justify-between col-span-1 bg-[#3D308A] _tokemomics_shadow">
                             <div className="flex justify-start gap-x-2.5">
-                                <Image src={marketing} alt="" />
+                                <Image src={marketing} alt="marketing" />
                                 <div>marketing</div>
                             </div>
                             <div className="text-_orange">10%</div>
                         </div>
                         <div data-aos="fade-right" data-aos-duration="1500" className="rounded-br-[40px] md:rounded-br-[40px] md:rounded-tl-[40px] p-5 md:p-7.5 flex justify-between col-span-1 bg-[#3D308A] _tokemomics_shadow">
                             <div className="flex justify-start gap-x-2.5">
-                                <Image src={team} alt="" />
+                                <Image src={team} alt="team" />
                                 <div>team</div>
                             </div>
                             <div className="text-_orange">10%</div>
                         </div>
                         <div data-aos="fade-right" data-aos-duration="1500" className="rounded-br-[40px] md:rounded-br-[0px] md:rounded-tr-[40px] md:rounded-bl-[40px] p-5 md:p-7.5 flex justify-between col-span-1 bg-[#3D308A] _tokemomics_shadow">
                             <div className="flex justify-start gap-x-2.5">
-                                <Image src={cex} alt="" />
+                                <Image src={cex} alt="cex" />
                                 <div>cex</div>
                             </div>
                             <div className="text-_orange">15%</div>
                         </div>
                         <div data-aos="fade-right" data-aos-duration="1500" className="rounded-br-[40px] md:rounded-br-[40px] md:rounded-tl-[40px] p-5 md:p-7.5 flex justify-between col-span-1 bg-[#3D308A] _tokemomics_shadow ">
                             <div className="flex justify-start gap-x-2.5">
-                                <Image src={charity} alt="" />
+                                <Image src={charity} alt="charity" />
                                 <div>charity</div>
                             </div>
                             <div className="text-_orange">5%</div>

@@ -24,24 +24,24 @@ export default function Partners(){
                     <div className="mt-[5%] flex flex-col gap-y-5 mx-[10%] md:mx-0">
                         <div className="flex flex-col md:flex-row gap-x-[5%]">
                             <div data-aos="fade-right" data-aos-duration="1500" className="flex flex-col justify-center w-full md:w-1/3">
-                                <Image className="w-[70%] md:mx-auto" src={partner_1} alt="" />
+                                <Image className="w-[70%] md:mx-auto" src={partner_1} alt="Raydium" />
                             </div>
                             <div data-aos="fade-right" data-aos-duration="1500" className="flex flex-col justify-center w-full md:w-1/3">
-                                <Image className="w-[70%] ml-auto md:mx-auto" src={partner_2} alt="" />
+                                <Image className="w-[70%] ml-auto md:mx-auto" src={partner_2} alt="CoinMarketCup" />
                             </div>
                             <div data-aos="fade-right" data-aos-duration="1500" className="flex flex-col justify-center w-full md:w-1/3">
-                                <Image className="w-[70%] md:mx-auto" src={partner_3} alt="" />
+                                <Image className="w-[70%] md:mx-auto" src={partner_3} alt="Solana" />
                             </div>
                         </div>
                         <div className="flex flex-col md:flex-row gap-y-5 gap-x-[5%] ">
                             <div data-aos="fade-right" data-aos-duration="1500" className="flex flex-col justify-center w-full md:w-1/3">
-                                <Image className="w-[70%] ml-auto mx-auto" src={partner_4} alt="" />
+                                <Image className="w-[70%] ml-auto mx-auto" src={partner_4} alt="CoinGecko" />
                             </div>
                             <div data-aos="fade-right" data-aos-duration="1500" className="flex flex-col justify-center w-full md:w-1/3">
-                                <Image className="w-[70%] md:mx-auto" src={partner_5} alt="" />
+                                <Image className="w-[70%] md:mx-auto" src={partner_5} alt="InterFi Network" />
                             </div>
                             <div data-aos="fade-right" data-aos-duration="1500" className="flex flex-col justify-center w-full md:w-1/3">
-                                <Image className="w-[70%] ml-auto mx-auto" src={partner_6} alt="" />
+                                <Image className="w-[70%] ml-auto mx-auto" src={partner_6} alt="PinkSale" />
                             </div>
                         </div>
                     </div>

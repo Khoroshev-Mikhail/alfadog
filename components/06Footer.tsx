@@ -28,7 +28,7 @@ export default function Footer(){
                         </div>
                     </div>
                     <div className="col-span-1 md:col-span-1  z-40 h-full w-full flex justify-end">
-                        <Image className="block md:absolute md:w-[58%] lg:w-[55%] bottom-0 right-0" src={dog} alt="" />
+                        <Image className="block md:absolute md:w-[58%] lg:w-[55%] bottom-0 right-0" src={dog} alt="Alpadog" />
                     </div>
                 </div>
                 <div className="my-[5%] w-full text-center text-white">

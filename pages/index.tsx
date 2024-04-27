@@ -12,8 +12,8 @@ export default function Home() {
           <Head>
               <title>Alfadog</title>
               <meta httpEquiv="content-language" content="en" />
-              <meta name="description" content="" />
-              <link rel="shortcut icon" href="/img/favicon.png" />
+              <meta name="description" content="Alfadog is a rapidly growing community aiming to become one of the most popular in the crypto world. " />
+              <link rel="shortcut icon" href="/img/favicon.ico" />
           </Head>
           <Header />
           <About />
