@@ -91,7 +91,7 @@ export default function Header(){
             <div className="relative z-20 md:hidden">
                 <Image className="w-full" src={alfadog_mobile} alt="Alfadog" />
             </div>
-            <div className="absolute top-0 right-0 hidden md:block w-1/2 md:w-2/3 xl:w-1/2">
+            <div className="absolute top-0 right-0 hidden md:block w-1/2 md:w-2/3 lg:w-[60%] xl:w-[55%]">
                 <Image className="w-full max-w-[873px] max-h-[750px] aspect-[921/795]" src={alfadog} alt="Alfadog" />
             </div>
         </section>
